@@ -19,14 +19,14 @@ label {
 .header {
     background: none;
 }
-.header::after {
+/*.header::after {
     margin: 5px;
     content: "Thank you! -🕯️";
     text-shadow: 1px 1px black;
     font-size: 1.6em;
     position: absolute;
     right: 10px;
-}
+}*/
 .header__icon {
     margin: 0 !important;
     padding-top: 5px;
