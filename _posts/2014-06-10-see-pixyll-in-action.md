@@ -1,174 +1,37 @@
 ---
 layout:     post
-title:      Pixyll in Action
-date:       2014-06-10 12:31:19
-summary:    See what the different elements looks like. Your markdown has never looked better. I promise.
-categories: jekyll pixyll
+title:      Block 0
+date:       2009-01-03 21:21:21
+summary:    Chancellor on brink of second bailout for banks
+categories: bitcoin inception
 ---
 
-There is a significant amount of subtle, yet precisely calibrated, styling to ensure
-that your content is emphasized while still looking aesthetically pleasing.
-
-All links are easy to [locate and discern](#), yet don't detract from the [harmony
-of a paragraph](#). The _same_ goes for italics and __bold__ elements. Even the the strikeout
-works if <del>for some reason you need to update your post</del>. For consistency's sake,
-<ins>The same goes for insertions</ins>, of course.
-
-### Code, with syntax highlighting
-
-Here's an example of some ruby code with line anchors.
-
-{% highlight ruby lineanchors %}
-# The most awesome of classes
-class Awesome < ActiveRecord::Base
-  include EvenMoreAwesome
-
-  validates_presence_of :something
-  validates :email, email_format: true
-
-  def initialize(email, name = nil)
-    self.email = email
-    self.name = name
-    self.favorite_number = 12
-    puts 'created awesomeness'
-  end
-
-  def email_format
-    email =~ /\S+@\S+\.\S+/
-  end
-end
+{%highlight ascii%}
+00000000   01 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00   ................
+00000010   00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00   ................
+00000020   00 00 00 00 3B A3 ED FD  7A 7B 12 B2 7A C7 2C 3E   ....;£íýz{.²zÇ,>
+00000030   67 76 8F 61 7F C8 1B C3  88 8A 51 32 3A 9F B8 AA   gv.a.È.ÃˆŠQ2:Ÿ¸ª
+00000040   4B 1E 5E 4A 29 AB 5F 49  FF FF 00 1D 1D AC 2B 7C   K.^J)«_Iÿÿ...¬+|
+00000050   01 01 00 00 00 01 00 00  00 00 00 00 00 00 00 00   ................
+00000060   00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00   ................
+00000070   00 00 00 00 00 00 FF FF  FF FF 4D 04 FF FF 00 1D   ......ÿÿÿÿM.ÿÿ..
+00000080   01 04 45 54 68 65 20 54  69 6D 65 73 20 30 33 2F   ..EThe Times 03/
+00000090   4A 61 6E 2F 32 30 30 39  20 43 68 61 6E 63 65 6C   Jan/2009 Chancel
+000000A0   6C 6F 72 20 6F 6E 20 62  72 69 6E 6B 20 6F 66 20   lor on brink of
+000000B0   73 65 63 6F 6E 64 20 62  61 69 6C 6F 75 74 20 66   second bailout f
+000000C0   6F 72 20 62 61 6E 6B 73  FF FF FF FF 01 00 F2 05   or banksÿÿÿÿ..ò.
+000000D0   2A 01 00 00 00 43 41 04  67 8A FD B0 FE 55 48 27   *....CA.gŠý°þUH'
+000000E0   19 67 F1 A6 71 30 B7 10  5C D6 A8 28 E0 39 09 A6   .gñ¦q0·.\Ö¨(à9.¦
+000000F0   79 62 E0 EA 1F 61 DE B6  49 F6 BC 3F 4C EF 38 C4   ybàê.aÞ¶Iö¼?Lï8Ä
+00000100   F3 55 04 E5 1E C1 12 DE  5C 38 4D F7 BA 0B 8D 57   óU.å.Á.Þ\8M÷º..W
+00000110   8A 4C 70 2B 6B F1 1D 5F  AC 00 00 00 00            ŠLp+kñ._¬....
 {% endhighlight %}
 
-Here's some CSS:
-
-{% highlight css %}
-.foobar {
-  /* Named colors rule */
-  color: tomato;
-}
-{% endhighlight %}
-
-Here's some JavaScript:
-
-{% highlight js %}
-var isPresent = require('is-present')
-
-module.exports = function doStuff(things) {
-  if (isPresent(things)) {
-    doOtherStuff(things)
-  }
-}
-{% endhighlight %}
-
-Here's some HTML:
-
-{% highlight html %}
-<div class="m0 p0 bg-blue white">
-  <h3 class="h1">Hello, world!</h3>
-</div>
-{% endhighlight %}
-
-# Headings!
-
-They're responsive, and well-proportioned (in `padding`, `line-height`, `margin`, and `font-size`).
-They also heavily rely on the awesome utility, [BASSCSS](https://basscss.com/).
-
-##### They draw the perfect amount of attention
-
-This allows your content to have the proper informational and contextual hierarchy. Yay.
-
-### There are lists, too
-
-  * Apples
-  * Oranges
-  * Potatoes
-  * Milk
-
-  1. Mow the lawn
-  2. Feed the dog
-  3. Dance
-
-### Images look great, too
-
-![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)
-
-_![desk](https://cloud.githubusercontent.com/assets/1424573/3378137/abac6d7c-fbe6-11e3-8e09-55745b6a8176.png)_
-
-
-### There are also pretty colors
-
-Also the result of [BASSCSS](https://basscss.com/), you can <span class="bg-dark-gray white">highlight</span> certain components
-of a <span class="red">post</span> <span class="mid-gray">with</span> <span class="green">CSS</span> <span class="orange">classes</span>.
-
-I don't recommend using blue, though. It looks like a <span class="blue">link</span>.
-
-### Footnotes!
-
-Markdown footnotes are supported, and they look great! Simply put e.g. `[^1]` where you want the footnote to appear,[^1] and then add
-the reference at the end of your markdown.
-
-### Stylish blockquotes included
-
-You can use the markdown quote syntax, `>` for simple quotes.
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis porta mauris.
-
-However, you need to inject html if you'd like a citation footer. I will be working on a way to
-hopefully sidestep this inconvenience.
+![Framed "The Times" Newspaper](/images/Jonny1000thetimes.png){:height="auto" width="auto" class="block mx-auto"}
 
 <blockquote>
   <p>
-    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+    The root problem with conventional currency is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full of breaches of that trust.
   </p>
-  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
+  <footer><cite title="Satoshi Nakamoto">Satoshi Nakamoto</cite></footer>
 </blockquote>
-
-
-### Tables
-
-Tables represent tabular data and can be built using markdown syntax.  They are rendered responsively in Pixyll for a variety of screen widths.
-
-Here's a simple example of a table:
-
-| Quantity | Description |     Price |
-|----------+-------------+----------:|
-|        2 |      Orange |     $0.99 |
-|        1 |   Pineapple |     $2.99 |
-|        4 |      Banana |     $0.39 |
-|==========|=============|===========|
-|          |   **Total** | **$6.14** |
-
-A table must have a body of one or more rows, but can optionally also have a header or footer.
-
-The cells in a column, including the header row cell, can either be aligned:
-
-- left,
-- right or
-- center.
-
-Most inline text formatting is available in table cells, block-level formatting are not.
-
-|----------------+----------------------+------------------------+----------------------------------|
-| Default header | Left header          |     Center header      |                     Right header |
-|----------------|:---------------------|:----------------------:|---------------------------------:|
-| Default        | Left                 |        Center          |                            Right |
-| *Italic*       | **Bold**             |   ***Bold italic***    |                      `monospace` |
-| [link text](#) | ```code```           |     ~~Strikeout~~      |              <ins>Insertion<ins> |
-| line<br/>break | "Smart quotes"       | <mark>highlight</mark> | <span class="green">green</span> |
-| Footnote[^2]   | <sub>subscript</sub> | <sup>superscript</sup> |     <span class="red">red</span> |
-|================+======================+========================+==================================+
-| Footer row                                                                                        |
-|----------------+----------------------+------------------------+----------------------------------|
-
-### There's more being added all the time
-
-Checkout the [GitHub repository](https://github.com/johno/pixyll) to request,
-or add, features.
-
-Happy writing.
-
----
-
-[^1]: Important information that may distract from the main text can go in footnotes.
-
-[^2]: Footnotes will work in tables since they're just links.
