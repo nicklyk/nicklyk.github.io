@@ -5,7 +5,9 @@ permalink: /about/
 tags: about
 ---
 
-##### You can find me here:
+:snake: Python :penguin: Linux :yin_yang: Bitcoin
+
+## You can find me here:
 
 :bird: [@niclick](https://twitter.com/niclick)
 
@@ -13,5 +15,9 @@ tags: about
 
 :shipit:
 
-> Got here by chance, stayed out of interest, will leave only by force.
+## Currently Reading:
 
+  * [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) by Andreas Antonopoulos
+
+
+> Got here by chance, stayed out of interest, will leave only by force.
