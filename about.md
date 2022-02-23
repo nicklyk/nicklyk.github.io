@@ -7,7 +7,7 @@ tags: about
 
 :snake: Python :penguin: Linux :yin_yang: Bitcoin
 
-## You can find me here:
+### You can find me here:
 
 :bird: [@niclick](https://twitter.com/niclick)
 
@@ -15,7 +15,7 @@ tags: about
 
 :shipit:
 
-## Currently Reading:
+### Currently Reading:
 
   * [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) by Andreas Antonopoulos
 
