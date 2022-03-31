@@ -59,7 +59,7 @@ sudo ip link set dev enxaef9489ed5c4 up
 
 {% endhighlight %}
 
-__10.__ You should now be able to ssh into your Raspberry Pi using the address 192.168.7.2 like this:
+__10.__ You should now be able to ssh into your Raspberry Pi using _raspberrypi.local_ like this:
 
 {%highlight bash %}
 
