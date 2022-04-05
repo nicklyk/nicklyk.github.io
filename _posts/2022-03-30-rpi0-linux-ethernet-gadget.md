@@ -32,7 +32,7 @@ sudo nano dhcpcd.conf
 # For the "ip_address" use the next available address on your network.
 
 interface usb0
-static ip_address=192.168.7.2
+static ip_address=192.168.7.2/24
 static routers=192.168.7.1
 static domain_name_servers=8.8.8.8 8.8.4.4
 
