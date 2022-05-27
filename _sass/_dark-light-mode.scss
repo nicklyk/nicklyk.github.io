@@ -1,0 +1,180 @@
+:root, :root[data-theme="light"] {
+  // Colors
+  --white: #ffffff;
+  --blue: #0076df;
+  --red: #f95020;
+  --green-1: #00cf26;
+  --yellow: #efcc00;
+  --orange: #ffcc22;
+  --purple: #f92080;
+  --dark-blue: #00369f;
+  --green: #00ab37;
+  --dark-green: #009f06;
+  --light-pink: #ffdddd;
+  --light-green: #ddffdd;
+  --dark-gray: #333;
+  --mid-gray: #777;
+  --light-gray: #ccc;
+  --lighter-gray: #eee;
+  --bitcoin: #f7931a;
+
+  // General
+  --background-color: white;
+  --main-headline-color: var(--dark-gray);
+  --main-text-color: var(--dark-gray);
+  --link-color: var(--blue);
+  --link-hover-color: var(--dark-gray);
+
+  // Header
+  --header-color: var(--dark-gray);
+  --nav-color: var(--mid-gray);
+  --nav-link-color: var(--dark-gray);
+
+  // Homepage
+  --summary-color: var(--dark-gray);
+  --meta-color: var(--mid-gray);
+
+  // Footer
+  --footer-bg-color: var(--white);
+}
+
+:root[data-theme="dark"] {
+  // Colors
+  --white: #ffffff;
+  --whiteish-01: #fafafa;
+  --whiteish-02: rgba(255, 255, 255, 0.6);
+
+  --dark-black: #121212;
+  --dark-gray: #333;
+  --mid-gray: #777;
+  --light-gray: #ccc;
+  --lighter-gray: #eee;
+  --darken-1: rgba(#000,.0625);
+  --darken-2: rgba(#000,.125);
+  --darken-3: rgba(#000,.25);
+  --darken-4: rgba(#000,.5);
+  --lighten01: rgba(#fff,.05);
+  --lighten02: rgba(#fff,.07);
+  --lighten03: rgba(#fff,.08);
+  --lighten04: rgba(#fff,.09);
+  --lighten06: rgba(#fff,.11);
+  --lighten08: rgba(#fff,.12);
+  --lighten12: rgba(#fff,.14);
+  --lighten16: rgba(#fff,.15);
+  --lighten24: rgba(#fff,.16);
+  --bitcoin: #f7931a;
+
+  // General
+  --background-color: var(--dark-black);
+  --main-headline-color: var(--whiteish-01);
+  --main-text-color: var(--whiteish-01);
+  --link-color: var(--bitcoin);
+  --link-hover-color: var(--bitcoin);
+
+  // Header
+  --header-color: var(--whiteish-01);
+  --nav-color: var(--whiteish-02);
+  --nav-link-color: var(--whiteish-01);
+
+  // Homepage
+  --summary-color: var(--whiteish-01);
+  --meta-color: var(--whiteish-02);
+
+  // Forms
+  --form-overlay: var(--lighten06);
+
+  // Footer
+  --footer-bg-color: var(--dark-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root, :root[data-theme="dark"] {
+    // Colors
+    --white: #ffffff;
+    --whiteish-01: #fafafa;
+    --whiteish-02: rgba(255, 255, 255, 0.6);
+
+    --dark-black: #121212;
+    --dark-gray: #333;
+    --mid-gray: #777;
+    --light-gray: #ccc;
+    --lighter-gray: #eee;
+    --darken-1: rgba(#000,.0625);
+    --darken-2: rgba(#000,.125);
+    --darken-3: rgba(#000,.25);
+    --darken-4: rgba(#000,.5);
+    --lighten01: rgba(#fff,.05);
+    --lighten02: rgba(#fff,.07);
+    --lighten03: rgba(#fff,.08);
+    --lighten04: rgba(#fff,.09);
+    --lighten06: rgba(#fff,.11);
+    --lighten08: rgba(#fff,.12);
+    --lighten12: rgba(#fff,.14);
+    --lighten16: rgba(#fff,.15);
+    --lighten24: rgba(#fff,.16);
+    --bitcoin: #f7931a;
+
+    // General
+    --background-color: var(--dark-black);
+    --main-headline-color: var(--whiteish-01);
+    --main-text-color: var(--whiteish-01);
+    --link-color: var(--bitcoin);
+    --link-hover-color: var(--bitcoin);
+
+    // Header
+    --header-color: var(--whiteish-01);
+    --nav-color: var(--whiteish-02);
+    --nav-link-color: var(--whiteish-01);
+
+    // Homepage
+    --summary-color: var(--whiteish-01);
+    --meta-color: var(--whiteish-02);
+
+    // Forms
+    --form-overlay: var(--lighten06);
+
+    // Footer
+    --footer-bg-color: var(--dark-black);
+  }
+
+  :root[data-theme="light"] {
+    // Colors
+    --white: #ffffff;
+    --blue: #0076df;
+    --red: #f95020;
+    --green-1: #00cf26;
+    --yellow: #efcc00;
+    --orange: #ffcc22;
+    --purple: #f92080;
+    --dark-blue: #00369f;
+    --green: #00ab37;
+    --dark-green: #009f06;
+    --light-pink: #ffdddd;
+    --light-green: #ddffdd;
+    --dark-gray: #333;
+    --mid-gray: #777;
+    --light-gray: #ccc;
+    --lighter-gray: #eee;
+    --bitcoin: #f7931a;
+
+    // General
+    --background-color: white;
+    --main-headline-color: var(--dark-gray);
+    --main-text-color: var(--dark-gray);
+    --link-color: var(--blue);
+    --link-hover-color: var(--dark-gray);
+
+    // Header
+    --header-color: var(--dark-gray);
+    --nav-color: var(--mid-gray);
+    --nav-link-color: var(--dark-gray);
+
+    // Homepage
+    --summary-color: var(--dark-gray);
+    --meta-color: var(--mid-gray);
+
+    // Footer
+    --footer-bg-color: var(--white);
+  }
+}
+

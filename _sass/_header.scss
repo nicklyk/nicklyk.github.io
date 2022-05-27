@@ -4,7 +4,7 @@
 }
 
 .site-header a {
-  color: $header-color;
+  color: var(--header-color);
   font-size: $h3;
   font-weight: $header-font-weight;
   background-image: none;
@@ -19,7 +19,7 @@
 }
 
 .site-header nav a {
-  color: $nav-color;
+  color: var(--nav-color);
 }
 
 .site-header nav a:hover,
@@ -28,12 +28,13 @@
 .site-header nav a.nav-active:hover,
 .site-header nav a.nav-active:focus,
 .site-header nav a.nav-active:active {
-  color: $nav-link-color;
+  color: var(--nav-link-color);
   opacity: 1;
   border-bottom: $nav-link-border-bottom;
 }
 
 .site-header nav a.nav-active {
+  color: var(--nav-link-color);
   border-bottom: $nav-active-border-bottom;
 }
 

@@ -1,12 +1,19 @@
 /* Basscss Color Base */
 
 body {
-  color: $dark-gray;
-  background-color: white;
+  color: var(--main-headline-color);
+  background-color: var(--background-color);
+
+  // Dark/Light Mode Transition
+  --duration: 0.5s;
+  --timing: ease;
+  transition: color var(--duration) var(--timing), background-color var(
+                  --duration
+  ) var(--timing);
 }
 
 a {
-  color: $blue;
+  color: $link-color;
   text-decoration: none;
 }
 

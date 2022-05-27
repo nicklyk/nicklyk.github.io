@@ -104,3 +104,13 @@ textarea {
   outline: none;
   box-shadow: 0 0 2px rgba($blue, .5);
 }
+
+
+textarea, input{
+  &::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--form-overlay);
+  }
+}
