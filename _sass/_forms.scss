@@ -50,7 +50,8 @@ textarea {
 }
 
 .field-light {
-  background-color: white;
+  background-color: var(--field-light-bg-color);
+  color: var(--field-light-color);
   transition: box-shadow .2s ease;
   border-style: solid;
   border-width: $border-width;
@@ -60,7 +61,7 @@ textarea {
 
 .field-light:focus {
   outline: none;
-  border-color: $blue;
+  border-color: var(--field-light-focus-color);
   box-shadow: 0 0 2px rgba($blue,.5);
 }
 
@@ -105,12 +106,15 @@ textarea {
   box-shadow: 0 0 2px rgba($blue, .5);
 }
 
+.button-blue{
+  background-color: var(--send-button-bg-color);
+  color: var(--send-button-color);
 
-textarea, input{
-  &::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: var(--form-overlay);
+  &:hover{
+    color: var(--send-button-color);
+  }
+
+  &:focus{
+    box-shadow: 0 0 1px 4px rgba(#f7931a, .5);
   }
 }
