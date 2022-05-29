@@ -10,7 +10,8 @@ code {
 }
 
 code {
-  color: #7a7a7a;
+  background-color: var(--code-bg-color);
+  color: var(--code-color);
 }
 
 pre {
@@ -18,7 +19,7 @@ pre {
   line-height: 1.11;
   overflow-x: scroll;
   margin-bottom: 0.88em;
-  background-color: $pre-background-color;
+  background-color: var(--code-bg-color);
 }
 
 .highlight .p {

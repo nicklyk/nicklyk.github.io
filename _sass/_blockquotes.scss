@@ -6,9 +6,9 @@ blockquote {
 }
 
 blockquote footer {
-  background-color: #fff;
+  background-color: transparent;
   border-color: transparent;
-  color: #7a7a7a;
+  color: var(--blockquote-footer-color);
   font-size: .85rem;
   font-style: normal;
   text-align: left;

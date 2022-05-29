@@ -9,7 +9,9 @@
   --darskish-black: #141414;
   --mid-black: #171717;
   --dark-gray: #333;
+  --darkish-gray: #666;
   --mid-gray: #777;
+  --lightish-gray: #999;
   --light-gray: #ccc;
   --lighter-gray: #eee;
 
@@ -40,6 +42,12 @@
   --main-text-color: var(--whiteish-01);
   --link-color: var(--bitcoin);
   --link-hover-color: var(--bitcoin);
+  --selection-color: var(--whiteish-01);
+
+  // Scrollbar
+  --track-color: var(--dark-gray);
+  --thumb-color: var(--darkish-gray);
+  --thumb-hover-color: var(--lightish-gray);
 
   // Header
   --header-color: var(--whiteish-01);
@@ -57,6 +65,13 @@
   --send-button-bg-color: var(--dark-gray);
   --send-button-color: var(--white);
 
+  // Blockquote
+  --blockquote-footer-color: var(--whiteish-02);
+
+  // Code
+  --code-bg-color: var(--dark-gray);
+  --code-color: var(--whiteish-01);
+
   // Footer
   --footer-bg-color: var(--dark-black);
 }
@@ -70,6 +85,12 @@
   --main-text-color: var(--dark-gray);
   --link-color: var(--blue);
   --link-hover-color: var(--dark-gray);
+  --selection-color: var(--dark-gray);
+
+  // Scrollbar
+  --track-color: var(--light-gray);
+  --thumb-color: var(--mid-gray);
+  --thumb-hover-color: var(--darkish-gray);
 
   // Header
   --header-color: var(--dark-gray);
@@ -86,6 +107,13 @@
   --field-light-focus-color: var(--blue);
   --send-button-bg-color: var(--blue);
   --send-button-color: var(--white);
+
+  // Blockquote
+  --blockquote-footer-color: var(--mid-gray);
+
+  // Code
+  --code-bg-color: var(--whiteish-01);
+  --code-color: var(--dark-gray);
 
   // Footer
   --footer-bg-color: var(--white);
