@@ -3,6 +3,7 @@
   --white: #ffffff;
   --whiteish-01: #fafafa;
   --whiteish-02: rgba(255, 255, 255, 0.6);
+  --whiteish-03: #f9f9f9;
 
   --black: #000;
   --dark-black: #121212;
@@ -80,7 +81,7 @@
   @include color-palette;
 
   // General
-  --background-color: white;
+  --background-color: var(--whiteish-03);
   --main-headline-color: var(--dark-gray);
   --main-text-color: var(--dark-gray);
   --link-color: var(--blue);
