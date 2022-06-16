@@ -7,7 +7,7 @@ tags: about
 
 :snake: Python :penguin: Linux :yin_yang: Bitcoin
 
-I've also translated Gigi's 21 Lessons to Greek:
+I've also translated Gigi's [21 Lessons](https://21lessons.com) to Greek:
   * [Chapter 1: Philosophy]({% post_url /21lessons/2020-01-16-philosophy %})
   * [Chapter 2: Economics]({% post_url /21lessons/2020-02-21-economics %})
   * [Chapter 3: Technology]({% post_url /21lessons/2020-03-20-technology %})
